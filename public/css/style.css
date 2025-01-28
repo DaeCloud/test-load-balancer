@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #005f6b;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+input {
+  height: 30px;
+}
+
+.buttons {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+#serverName {
+  font-weight: bold;
+  text-decoration: underline;
+}
